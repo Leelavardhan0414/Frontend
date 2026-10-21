@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(20, 166, 215);
+}
+h1{
+    color:azure;
+    font-family: Roboto;
+    font-weight:bold;
+    text-align:center;
+    border:10px rgb(147, 15, 15) solid;
+    border-radius: 20px;
+}
+p{
+    color: hsl(272, 25%, 88%);
+    border-bottom: 5px rgb(234, 10, 10) solid;
+    border-top: 5px pink dotted;
+    border-left: 5px rgb(40, 11, 50) solid;
+    border-right: 5px rgb(40, 11, 50) solid;
+    border-radius: 20px;
+}

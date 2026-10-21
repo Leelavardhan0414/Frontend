@@ -1,0 +1,8 @@
+#mydiv{
+    text-align: center;
+}
+#mybutton{
+    background-color: rgb(177, 118, 118);
+    border-radius: 5px;
+    padding: 5px 20px;
+}

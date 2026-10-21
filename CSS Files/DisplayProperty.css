@@ -1,0 +1,35 @@
+/* #d1{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    border: 2px solid;
+}
+.s1{
+    background-color: blueviolet;
+    border: 2px solid;
+    width: 200px;
+    height: 200px;
+    display: inline-block; 
+}
+p{
+    background-color: rgb(204, 204, 23);
+    border: 2px solid;
+    width: 200px;
+    height: 200px;
+    display:flex;
+} */
+ .container {
+  display: flex; 
+  flex-direction:column-reverse;        /* 1. Turns on Flexbox */
+  justify-content: center; /* 2. Centers item horizontally (left-to-right) */
+  align-items: center;     /* 3. Centers item vertically (top-to-bottom) */
+  height: 200px;           /* Gives the parent height to show vertical centering */
+  background-color: #f0f0f0;
+}
+
+.box {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+}

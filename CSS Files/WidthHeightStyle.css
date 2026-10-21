@@ -1,0 +1,19 @@
+*{
+        box-sizing: border-box;
+}
+.container{
+    background-color: bisque;
+    height: auto;
+    
+}
+.box{
+    background-color: blue;
+    border:2px solid;
+    width: 200px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+    
+}

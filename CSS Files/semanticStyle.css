@@ -1,0 +1,51 @@
+
+*{
+    box-sizing: border-box;
+}
+header{
+    padding: 10px;
+    background-color: rgb(65, 63, 77);
+    color: rgb(218, 179, 140);
+    text-align: center;
+
+}
+nav{
+    background-color: black;
+    padding: 10px;
+    color:azure;
+    text-align: center;
+}
+main{
+    margin: 20px;
+    padding:10px;
+    
+}
+.aside1{
+    border: 2px solid;
+    width: 20%;
+    float: left;
+    padding: 10px;
+    background-color: aquamarine;
+}
+ .section1{
+    border: 2px solid;
+    width: 20%;
+    float: left;
+    padding: 10px;
+    background-color: aqua;
+ }
+ .article1{
+    border: 2px solid;
+    width: 20%;
+    float: left;
+    padding:10px;
+    background-color: rgb(115, 115, 189);
+ }
+ footer{
+    display: block;
+    clear: both;
+    padding: 10px;
+    background-color: blanchedalmond;
+    color: rgb(99, 98, 97);
+    text-align: center;
+ }

@@ -1,0 +1,23 @@
+
+.cal{
+    margin:10px;
+    border: 1px solid;
+    width: 400px;
+    height: 720px;
+    text-align: center;
+    background-color: rgb(122, 146, 189);
+    padding: 20px;
+}
+.button{
+    font-size: 30px;
+    background-color: rgb(112, 112, 111);
+    border-radius: 5px;
+    display: flex;
+
+}
+#Earea{
+    background-color: rgb(230, 230, 210);
+    width: 370px;
+    height: 40px;
+    border-radius:5px;
+}

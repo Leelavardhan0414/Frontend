@@ -1,0 +1,22 @@
+
+.box{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    overflow:hidden;
+
+    transform:  translate(100px) rotateY(45deg) scale(0.5) skew(109deg);
+}
+#i1{
+    
+    background-color: rgb(135, 206, 235);
+    
+}
+#i2{
+    background-color: rgb(180, 135, 235);
+}
+#i3{
+    background-color: rgb(193, 235, 135);
+}
