@@ -1,0 +1,20 @@
+#myh1{
+    text-align: center;
+    font-size: 5em;
+    font-family: Helvetica, sans-serif;
+}
+#buttons{
+    text-align: center;
+}
+.mybutton{
+    background-color: hsl(262, 66%, 68%);
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: rgb(241, 239, 239);
+    cursor: pointer;
+    transition: background-color 0.25s;
+
+}
+.mybutton:hover{
+    background-color: hsl(262, 66%, 42%);
+}

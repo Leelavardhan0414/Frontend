@@ -1,0 +1,18 @@
+#box{
+    background-color: rgb(16, 216, 252);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    position:sticky;
+    top: 0px;
+}
+#boxx{
+    background-color: rgb(12, 12, 13);
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    position:absolute;
+    top:50px;
+    left:50px;
+    
+}

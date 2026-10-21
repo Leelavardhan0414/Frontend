@@ -1,0 +1,29 @@
+*{
+    margin: 10px;
+}
+h1{
+    text-align: center;
+    color: hsl(208, 67%, 53%);
+    background-color:rgb(186, 188, 190) ;
+}
+.navbar{
+    text-align: center;
+    background-color: bisque;
+    font-size: large;
+    padding: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(97, 90, 90);
+    display: inline-block;
+}
+.navbar a:hover{
+    color: hsl(0, 0%, 8%);
+    font-size: 1.1em;
+}
+.navbar a.hyper{
+    float: right;
+    border: 1px solid;
+    border-radius: 5px;
+   background-color: rgb(206, 245, 245);
+}

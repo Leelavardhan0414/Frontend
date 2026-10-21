@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Form Example</h1>
+    <hr>
+    <br>
+    <center>
+        <form action="Form.php" method="post"
+            style="background-color: skyblue; border: 2px solid black; padding: 20px; width: 500px;">
+            <center>
+                <lable>Name</lable>
+                <input type="text" placeholder="Enter name" name="name" minlength='6' required>
+            </center>
+            <br><br>
+            <label>Textarea</label>
+            <textarea placeholder="Enter message" name="message"></textarea>
+            <br><br>
+            <label>Email</label>
+            <input type="email" placeholder="Enter email" name="email">
+            <br><br>
+            <label>Password</label>
+            <input type="password" placeholder="Enter password" name="password" required minelength='8'>
+            <br><br>
+            <label>Date</label>
+            <input type="date" name="date">
+            <br><br>
+            <label>time</label>
+            <input type="time" name="time">
+            <br><br>
+            <label>datetime</label>
+            <input type="datetime-local" name="datetime">
+            <br><br>
+            <label>Gender</label>
+            <br>
+            <input type="radio" name="gender" value="male">Male
+            <br>
+            <input type="radio" name="gender" value="female">Female
+            <br>
+            <input type="radio" name="gender" value="others">Others
+            <br><br>
+            <label>courses</label>
+            <br>
+
+            <input type="checkbox" name="courses" value="html">HTML
+            <br>
+            <input type="checkbox" name="courses" value="css">CSS
+            <br>
+            <input type="checkbox" name="courses" value="js">JavaScript
+            <br><br>
+            <label>courses</label>
+            <br>
+            <select name="courses">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="js">JavaScript</option>
+            </select>
+            <br><br>
+            <label>File</label>
+            <input type="file" name="file" value="file" accept=".jpg, .jpeg, .png, .pdf">
+            <br><br>
+            <label>Color</label>
+            <input type="color" name="color" valeu="color">
+            <br><br>
+            <label>Range</label>
+            <input type="range" name="range" value="range">
+            <br><br>
+            <label>Search</label>
+            <input type="search" name="search">
+            <br><br>
+            <label>hidden</label>
+            <input type="hidden" name="hidden" value="hidden">
+            <br><br>
+            <label>URL</label>
+            <input type="url" name="url" palceholder="https://www.example.com">
+            <br><br>
+            <label>Telephone</label>
+            <input type="tel" name="tel" placeholder="9234567890" maxlength="10" pattern="[0-9]{10}">
+            <br><br>
+            <label>Number</label>
+            <input type="number" name="number" placeholder="Enter number" step="10">
+            <br><br>
+            <label>Month</label>
+            <input type="month" name="month">
+            <br><br>
+            <label>Year</label>
+            <input type="year" name="year">
+            <br><br>
+            <label>Week</label>
+            <input type="week" name="week">
+            <br><br>
+            <input type="reset" value="Reset" name="reset">
+            <input type="submit" value="Submit" name="submit">
+
+
+        </form>
+    </center>
+</body>
+
+</html>

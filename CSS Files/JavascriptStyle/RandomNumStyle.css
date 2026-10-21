@@ -1,0 +1,19 @@
+#mydiv{
+    text-align: center;
+}
+#mybutton:hover{
+    
+    background-color: hsl(240, 76%, 59%);
+}
+#butn{
+    text-align: center;
+}
+#mybutton{
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 25px;
+    font-family: verdana,monospace;
+    background-color: rgb(101, 101, 243);
+    transition: background-color 0.25s;
+}
+
